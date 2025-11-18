@@ -1,0 +1,19 @@
+/* assets/css/extended/blank.css */
+
+/* Make images in content have a max-width and display as block elements */
+.post-content img {
+    width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto; /* Center the image */
+}
+
+/* 
+  When hovering over an image that is part of the gallery, 
+  show a zoom-in cursor to indicate it's clickable.
+*/
+.post-content a.img-link {
+    cursor: zoom-in;
+    display: block; /* Ensures the link wrapper takes up the full space of the image */
+    line-height: 0; /* Removes any extra space below the image */
+}

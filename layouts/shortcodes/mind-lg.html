@@ -1,3 +1,12 @@
+<!-- 引入思维导图mindmap -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="/js/mindmap/kity.min.js"></script>
+<script src="/js/mindmap/kityminder.core.min.js"></script>
+<script src="/js/mindmap/mindmap.js"></script>
+<script src="/js/mindmap/mindmap.min.js"></script>
+<link href="/js/mindmap/mindmap.css" rel="stylesheet">
+<link href="/js/mindmap/kityminder.core.css" rel="stylesheet">
+
 <div id="{{ .Get 0 }}" class="mindmap mindmap-lg">
     {{- .Inner | markdownify -}}
 </div>
